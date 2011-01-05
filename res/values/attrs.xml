@@ -1,0 +1,8 @@
+
+<resources>
+	<declare-styleable name="BrighHubImage">
+		<attr name="message_string" format="string" />
+		<attr name="footnote_string" format="string" />
+		<attr name="bright_image" format="integer" />
+    </declare-styleable>
+</resources>

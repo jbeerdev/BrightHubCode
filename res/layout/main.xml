@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:bright="http://schemas.android.com/apk/res/com.bright.hub"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.bright.hub.custom.BrightHubImage
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		bright:message_string="This will be shown in a toast"
+		bright:footnote_string="This is the footNote" bright:bright_image="@drawable/bright_hub_image">
+	</com.bright.hub.custom.BrightHubImage>
+</LinearLayout>

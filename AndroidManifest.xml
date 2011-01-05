@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.bright.hub" android:versionCode="1" android:versionName="1.0">
+	<application android:icon="@drawable/bright_hub"
+		android:label="@string/app_name">
+		<activity android:name=".examples.ListOfExamples"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".video.VideoPlayer">
+
+		</activity>
+
+	</application>
+	<uses-sdk android:maxSdkVersion="4" android:minSdkVersion="4"
+		android:targetSdkVersion="4">
+	</uses-sdk>
+
+</manifest> 
