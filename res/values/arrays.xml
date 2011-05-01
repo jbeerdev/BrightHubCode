@@ -1,0 +1,10 @@
+<resources>
+	<string-array name="user_country_labels">
+		<item>England</item>
+		<item>Germany</item>
+		<item>Spain</item>
+		<item>USA</item>
+		<item>Portugal</item>
+		<item>France</item>
+	</string-array>
+</resources>

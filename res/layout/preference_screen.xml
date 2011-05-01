@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="First category">
+		<ListPreference android:title="List"  
+			android:summary="Array preferences selection" android:key="listPref"
+			android:defaultValue="USA" android:entries="@array/user_country_labels"
+			android:entryValues="@array/user_country_labels" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Second category">
+		<EditTextPreference
+			android:summary="You can input text here" android:defaultValue="Vacio"
+			android:title="TextToInput" android:key="editTextPref" />
+		<CheckBoxPreference android:title="Checkbox"
+			android:defaultValue="false" android:summary="This can be true or false"
+			android:key="checkboxPref" />
+		<PreferenceScreen android:key="SecondPrefScreen"
+			android:title="Second preferences screen" android:summary="This is other screen">
+			<RingtonePreference android:name="Ringtone"
+				android:summary="Select a ringtone" android:title="RingTones"
+				android:key="ringtonePref" />
+		</PreferenceScreen>
+		<Preference android:title="Custom" android:summary="This works like a button"
+			android:key="customPref" />
+	</PreferenceCategory>
+</PreferenceScreen>
