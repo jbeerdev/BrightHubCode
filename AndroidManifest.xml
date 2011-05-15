@@ -8,7 +8,9 @@
 
 		</activity>
 		<activity android:name=".video.VideoPlayer" />
-		<activity android:name=".preferences.PreferencesActivity">
+		<activity android:name=".preferences.PreferencesActivity" />
+
+		<activity android:name=".background.WebServiceBackgroundActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -21,4 +23,5 @@
 		android:targetSdkVersion="4">
 	</uses-sdk>
 	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.INTERNET"/>
 </manifest> 
