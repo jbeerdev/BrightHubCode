@@ -10,7 +10,7 @@
 		<activity android:name=".video.VideoPlayer" />
 		<activity android:name=".preferences.PreferencesActivity" />
 
-		<activity android:name=".background.WebServiceBackgroundActivity">
+		<activity android:name=".databases.SaveDataActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
